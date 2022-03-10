@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* COMMON */
+
+html {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
 
 .clearfix::after {
     content: "";
@@ -18,6 +25,80 @@
 
 /* TEST */
 
-body {
-    background-color: plum;
+header {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+nav {
+    background-color: cadetblue;
+    width: 100%;
+    height: 3em;
+}
+
+.jumbotron {
+    background-color: chartreuse;
+    width: 100%;
+    height: 15em;
+}
+
+main {
+    background-color: coral;
+    width: 100%;
+}
+
+.container {
+    background-color: darksalmon;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.columns {
+    background-color: hotpink;
+    height: 200px;
+}
+
+.enterprise {
+    background-color: indianred;
+    height: 100px;
+}
+
+.partner {
+    background-color: rgb(255, 194, 194);
+    height: 200px;
+}
+
+.operations {
+    background-color: darkorange;
+    height: 300px;
+}
+
+.more {
+    background-color: brown;
+    height: 100px;
+}
+
+.members {
+    background-color: dodgerblue;
+    height: 200px;
+}
+
+.try_it {
+    background-color: lightblue;
+    height: 150px;
+}
+
+.faq {
+    background-color: greenyellow;
+    height: 200px;
+}
+
+.footer_list {
+    background-color: darkgrey;
+    height: 200px;
+}
+
+.language {
+    background-color: darkslategrey;
+    height: 100px;
 }
