@@ -6,15 +6,33 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 /* COMMON */
 
 html {
     font-family: 'Open Sans', Arial, sans-serif;
 }
+
+
+/* COMMON - Margin/Padding */
+
+.mt_1 {
+    margin-top: 1em;
+}
+
+.mb_1 {
+    margin-bottom: 1em;
+}
+
+.mb_2 {
+    margin-bottom: 2em;
+}
+
+.mb_3 {
+    margin-bottom: 3em;
+}
+
+/* COMMON - Float */
 
 .clearfix::after {
     content: "";
@@ -30,14 +48,25 @@ html {
     float: left;
 }
 
+/* COMMON - Buttons */
+
+.button {
+    color: white;
+    padding: .6em 1.5em;
+    background-color: #0061FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* COMMON - List */
+
 ul {
     list-style: none;
 }
 
-
 /* HEADER */
 
-/* Header - Menu */
+/* HEADER - Menu */
 
 nav {
     width: 100%;
@@ -67,14 +96,13 @@ nav a img {
     vertical-align: middle;
 }
 
-nav .button a {
-    color: white;
+nav .button {
     font-size: .8em;
-    padding: .6em 1.5em;
-    background-color: #0061FF;
+    margin-right: 1em;
 }
 
-/* Menu - Hover */
+
+/* HEADER - Menu - Hover */
 
 .border_bottom {
     border-bottom: none;
@@ -93,9 +121,9 @@ nav .button a {
 
 .jumbotron {
     width: 100%;
-    height: calc100vh;
+    height: 100vh;
     background-color: #B4D0E7;
-    padding-top: 4em;
+    padding: 8em 0 2em;
 }
 
 .jumbo {
@@ -109,11 +137,21 @@ nav .button a {
 }
 
 .jumbo_text {
-    width: 27%;
+    width: 24vw;
+    margin-top: 2em;
+    font-size: .8em;
+    font-weight: 600;
 }
 
 .jumbotron img {
-    width: 53vw;
+    height: 60vh;
+    position: relative;
+    top: 2em;
+}
+
+#arrow_down{
+    font-size: 2.5em;
+    color: black;
 }
 
 
