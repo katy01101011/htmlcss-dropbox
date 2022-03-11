@@ -42,6 +42,8 @@ ul {
 nav {
     width: 100%;
     height: 4em;
+    position: fixed;
+    background-color: white;
 }
 
 nav li {
@@ -83,9 +85,36 @@ nav .button a {
 }
 
 .button a:hover {
-    background-color: #5192fa;
+    background-color: #B4D0E7;
 }
 
+
+/* JUMBOTRON */
+
+.jumbotron {
+    width: 100%;
+    height: calc100vh;
+    background-color: #B4D0E7;
+    padding-top: 4em;
+}
+
+.jumbo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 3.8em;
+}
+
+.jumbo_text {
+    width: 27%;
+}
+
+.jumbotron img {
+    width: 53vw;
+}
 
 
 
@@ -93,11 +122,6 @@ nav .button a {
 /* TEST */
 
 
-.jumbotron {
-    background-color: chartreuse;
-    width: 100%;
-    height: 15em;
-}
 
 main {
     background-color: coral;
