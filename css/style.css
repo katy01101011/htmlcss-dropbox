@@ -353,6 +353,10 @@ nav a img {
 }
 
 
+/* MORE */
+
+
+
 
 
 
@@ -369,13 +373,6 @@ main {
     background-color: white;
     width: 70%;
     margin: 0 auto;
-}
-
-
-
-.more {
-    background-color: brown;
-    height: 100px;
 }
 
 .members {
