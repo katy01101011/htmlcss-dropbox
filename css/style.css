@@ -14,7 +14,17 @@ html {
     font-size: 100%;
 }
 
+h2 {
+    font-size: 2.3em;
+}
 
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
 
 .lh_1half {
     line-height: 1.5em;
@@ -31,12 +41,18 @@ html {
 
 /* COMMON - Margin/Padding */
 
+/* Margin top */
+
 .mt_half {
     margin-top: .5em;
 }
 
 .mt_1 {
     margin-top: 1em;
+}
+
+.mt_1half {
+    margin-top: 1.5em;
 }
 
 .mt_2 {
@@ -51,9 +67,15 @@ html {
     margin-top: 4em;
 }
 
+.mt_8 {
+    margin-top: 8em;
+}
+
 .mt_11 {
     margin-top: 11em;
 }
+
+/* Margin bottom */
 
 .mb_1 {
     margin-bottom: 1em;
@@ -65,6 +87,12 @@ html {
 
 .mb_3 {
     margin-bottom: 3em;
+}
+
+/* Padding top */
+
+.pt_2 {
+    padding-top: 2em;
 }
 
 /* COMMON - Float */
@@ -193,9 +221,6 @@ nav a img {
 
 /* COLUMNS */
 
-.columns h2 {
-    font-size: 2.3em;
-}
 
 .col {
     width: 29%;
@@ -230,9 +255,6 @@ nav a img {
 
 /* COLUMN - Price */
 
-.col h4 {
-    font-size: 1.5em;
-}
 
 .price> :first-child {
     font-weight: bold;
@@ -260,13 +282,53 @@ nav a img {
     border-bottom: 1px solid gray;
 }
 
-.properties h5 {
-    font-size: 1.2em;
-}
-
 .check_list .icon {
     color: green;
 }
+
+
+/* TEAM TABLE */
+
+.team {
+    border: 1px solid gray;
+    font-size: .8em;
+}
+
+.team_text {
+    display: inline-block;
+    width: 100%;
+    line-height: 2em;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.contact {
+    padding: 1.5em;
+}
+
+.contact_text {
+    width: 70%;
+}
+
+.contact_button {
+    width: 30%;
+}
+
+
+/* PARTNER  */
+
+.partner_img {
+    width: 50%;
+}
+
+.partner_text {
+    width: 50%;
+    padding-top: 2.5em;
+    padding-left: 4em;
+}
+
+
+
 
 
 
@@ -280,23 +342,9 @@ main {
 }
 
 .container {
-    background-color: rgb(250, 202, 242);
+    background-color: white;
     width: 70%;
     margin: 0 auto;
-}
-
-.columns {
-    background-color: white;
-}
-
-.enterprise {
-    background-color: indianred;
-    height: 100px;
-}
-
-.partner {
-    background-color: rgb(255, 194, 194);
-    height: 200px;
 }
 
 .operations {
