@@ -99,6 +99,15 @@ h5 {
     padding-top: 2em;
 }
 
+.pt_3 {
+    padding-top: 3em;
+}
+
+.bd_top {
+    border-top: 1px solid gray;
+    display: inline-block;
+}
+
 /* COMMON - Float */
 
 .clearfix::after {
@@ -353,21 +362,70 @@ nav a img {
 }
 
 
-/* MORE */
+/* MEMBERS */
 
+.mem_col_center {
+    width: 40vw;
+    height: 30vw;
+    padding: 2.2em;
+    font-size: .9em;
+    overflow-y: scroll;
+    background-color: lightgray;
+}
 
+.mem_col_center img {
+    width: 9vw;
+}
 
+.square {
+    width: 15vw;
+    height: 15vw;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    padding: 3.5vw;
+    fill: white;
+}
+
+#designit {
+    background-color: darkseagreen;
+}
+
+#arizona_university {
+    background-color: rgb(71, 31, 31);
+}
+
+#florida_university {
+    background-color: dodgerblue;
+}
+
+#topps {
+    background-color: tomato;
+     
+}
+
+#hearst_corp {
+    background-color: lightskyblue;
+}
+
+#world_bicycle {
+    background-color: maroon;
+}
+
+#clear_channel {
+    background-color: khaki;
+}
+
+#lonely_planet {
+    background-color: midnightblue;
+}
 
 
 
 
 /* TEST */
-
-
-main {
-    background-color: coral;
-    width: 100%;
-}
 
 .container {
     background-color: white;
@@ -375,19 +433,8 @@ main {
     margin: 0 auto;
 }
 
-.members {
-    background-color: dodgerblue;
-    height: 200px;
-}
-
-.try_it {
-    background-color: lightblue;
-    height: 150px;
-}
-
 .faq {
     background-color: greenyellow;
-    height: 200px;
 }
 
 .footer_list {
