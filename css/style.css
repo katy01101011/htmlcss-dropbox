@@ -108,12 +108,24 @@ h5 {
     padding-top: 5em;
 }
 
+.pt_6 {
+    padding-top: 6em;
+}
+
+.pb_2 {
+    padding-bottom: 2em;
+}
+
 .pb_3 {
     padding-bottom: 3em;
 }
 
 .pb_5 {
     padding-bottom: 5em;
+}
+
+.pb_6 {
+    padding-bottom: 6em;
 }
 
 .bd_top {
@@ -479,9 +491,24 @@ nav a img {
 /* TRY IT */
 
 .try_it {
-    background-color: lightblue;
-    width: 100%;
-    height: 300px;
+    background-color: #B4D0E7;
+    width: 100%
+}
+
+.try_col_left {
+    width: 70%;
+}
+
+.try_col_right {
+    display: inline-block;
+    width: 30%;
+}
+
+
+/* FAQ */
+
+.faq h4 {
+    border-bottom: 1px solid grey;
 }
 
 
@@ -495,11 +522,11 @@ nav a img {
     margin: 0 auto;
 }
 
-.faq {
+/* .faq {
     background-color: greenyellow;
     width: 100%;
     height: 300px;
-}
+} */
 
 .footer_list {
     background-color: darkgrey;
