@@ -198,6 +198,10 @@ nav li {
     display: inline-block;
 }
 
+nav a {
+    padding-bottom: 1.7em;
+}
+
 nav a img {
     width: 90%;
     vertical-align: middle;
@@ -518,6 +522,8 @@ nav a img {
 
 .question p {
     display: inline-block;
+    font-size: .9em;
+    font-weight: bold;
     line-height: 5em;
     vertical-align: middle;
 }
@@ -539,18 +545,88 @@ nav a img {
     margin: 0 auto;
 }
 
-/* .faq {
-    background-color: greenyellow;
-    width: 100%;
-    height: 300px;
-} */
+
+/* Footer */
 
 .footer_list {
-    background-color: darkgrey;
-    height: 200px;
+    background-color: black;
 }
 
-.language {
-    background-color: darkslategrey;
-    height: 100px;
+.footer_container {
+    width: 80%;
+    margin: 0 auto;
 }
+
+.footer_list ul {
+    width: 20%;
+    color: white;
+}
+
+.footer_list h5 {
+    padding-bottom: 1em;
+}
+
+.footer_list li {
+    font-size: .8em;
+    line-height: 2em;
+}
+
+.footer_list a {
+    font-size: inherit;
+    color: inherit;
+}
+
+.footer_list a:hover {
+    font-size: inherit;
+    color: #B4D0E7;
+}
+
+
+/* Language */
+
+.language {
+    background-color: black;
+}
+
+.language_container {
+    margin-left: 10vw;
+    background-color: pink;
+    width: 9vw;
+    border-top: 1px solid white;
+}
+.language label {
+    color: white;
+}
+
+.language select {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer_container label {
+    color: white;
+}
+
+select {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.language_container {
+    margin-left: 9.8vw;
+    padding-right: 5em;
+    background-color: darkslategrey;
+} */
