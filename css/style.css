@@ -376,18 +376,10 @@ nav a img {
 }
 
 
-/* MORE */
-
-.more {
-    background-color: yellow;
-}
-
-
 /* MEMBERS */
 
 .members_container {
     width: 100vw;
-    background-color: red;
 }
 
 .sq_col_center {
@@ -398,7 +390,7 @@ nav a img {
     display: inline-block;
     width: 40vw;
     height: 30vw;
-    background-color: orange;
+    background-color: #F5F5F5;
 }
 
 
@@ -407,29 +399,59 @@ nav a img {
 .square {
     width: 15vw;
     height: 15vw;
-    border: 1px solid black;
-    background-color: aqua;
-    border: .7vw solid transparent;
+    border: .7vw solid transparent
 }
 
 .square > a {
     display: inline-block;
-    width: 100%;
-    height: 100%;
-    line-height: 13.6vw;
+    border: .7vw solid transparent;
+    line-height: 12.6vw;
 }
 
 .square > a > img {
     display: inline-block;
     width: 100%;
     filter: invert(1);
-    padding-left: 2vw;
-    padding-right: 2vw;
     vertical-align: middle;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
 }
 
 .square:hover {
     border: .7vw solid rgba(255, 255, 255, .5);
+}
+
+.designit {
+    background-color: 
+    #A2D39B;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.u_florida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+.wbr {
+    background-color: #D5001F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lp {
+    background-color: #0D2481;
+}
+
+.clear_channel {
+    background-color: #FFD830;
 }
 
 
@@ -448,7 +470,6 @@ nav a img {
 /* TEST */
 
 .container {
-    background-color: blueviolet;
     width: 70%;
     margin: 0 auto;
 }
