@@ -384,9 +384,11 @@ nav a img {
 
 .sq_col_center {
     height: 30vw;
+    padding: 3vw;
+    overflow-y: scroll;
 }
 
-.squares > p {
+.squares > .sq_col_center {
     display: inline-block;
     width: 40vw;
     height: 30vw;
@@ -399,7 +401,7 @@ nav a img {
 .square {
     width: 15vw;
     height: 15vw;
-    border: .7vw solid transparent
+    border: .7vw solid transparent;
 }
 
 .square > a {
@@ -420,6 +422,25 @@ nav a img {
 .square:hover {
     border: .7vw solid rgba(255, 255, 255, .5);
 }
+
+/* Members center text */
+
+.sq_col_center img {
+    width: 10vw;
+    padding-bottom: 1.5em;
+}
+
+.sq_col_center p {
+    padding-top: 2em;
+}
+
+.sq_col_center p span {
+    padding-top: 2em;
+    border-top: 1px solid gray;
+}
+
+
+/* Members squares colors */
 
 .designit {
     background-color: 
