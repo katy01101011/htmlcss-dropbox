@@ -394,17 +394,42 @@ nav a img {
     height: 30vw;
 }
 
-.square {
-    width: 15vw;
-    height: 15vw;
-    border: 1px solid black;
-}
-
 .squares > p {
     display: inline-block;
     width: 40vw;
     height: 30vw;
     background-color: orange;
+}
+
+
+/* Member squares */
+
+.square {
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+    background-color: aqua;
+    border: .7vw solid transparent;
+}
+
+.square > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 13.6vw;
+}
+
+.square > a > img {
+    display: inline-block;
+    width: 100%;
+    filter: invert(1);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    vertical-align: middle;
+}
+
+.square:hover {
+    border: .7vw solid rgba(255, 255, 255, .5);
 }
 
 
