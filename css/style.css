@@ -207,7 +207,7 @@ nav a img {
 
 .jumbotron {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 3.5em);
     background-color: #B4D0E7;
     padding: 8em 0 2em;
 }
@@ -387,11 +387,25 @@ nav a img {
 
 .members_container {
     width: 100vw;
-    height: 30vw;
     background-color: red;
 }
 
-.mem_col
+.sq_col_center {
+    height: 30vw;
+}
+
+.square {
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+}
+
+.squares > p {
+    display: inline-block;
+    width: 40vw;
+    height: 30vw;
+    background-color: orange;
+}
 
 
 /* TRY IT */
