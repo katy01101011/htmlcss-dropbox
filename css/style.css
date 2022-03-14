@@ -511,6 +511,23 @@ nav a img {
     border-bottom: 1px solid grey;
 }
 
+.question {
+    line-height: 5em;
+    border-bottom: 1px solid grey;
+}
+
+.question p {
+    display: inline-block;
+    line-height: 5em;
+    vertical-align: middle;
+}
+
+.question i {
+    display: inline-block;
+    line-height: 5em;
+    vertical-align: middle;
+    padding-right: 2em;
+}
 
 
 
