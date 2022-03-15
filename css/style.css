@@ -604,29 +604,19 @@ nav a img {
     border: 1px solid black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* .footer_container label {
-    color: white;
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid gray;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-right: .5em;
+    vertical-align: middle;
+    transition: .3s all linear;
 }
 
-select {
-    border: 1px solid black;
-    background-color: black;
-    color: white;
+input[type="radio"]:checked {
+    border: 5px solid blue;
 }
-
-.language_container {
-    margin-left: 9.8vw;
-    padding-right: 5em;
-    background-color: darkslategrey;
-} */
