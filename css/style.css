@@ -129,7 +129,7 @@ h5 {
 }
 
 .bd_top {
-    border-top: 1px solid gray;
+    border-top: 1px solid #D9D9DC;
     display: inline-block;
 }
 
@@ -266,7 +266,7 @@ nav a img {
 
 .col {
     width: 29%;
-    border: 1px solid gray;
+    border: 1px solid #D9D9DC;
     font-size: .8em;
     min-height: 67em;
 }
@@ -282,16 +282,36 @@ nav a img {
     font-weight: 400;
     line-height: 2em;
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #D9D9DC;
+}
+
+.col_details {
+    padding: 1.5em;
+}
+
+
+/* INPUT RADIO */
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #D9D9DC;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-right: .5em;
+    vertical-align: middle;
+    transition: .3s all linear;
+}
+
+input[type="radio"]:checked {
+    border: 5px solid #0061FF;
 }
 
 .radio {
     margin-right: .7em;
     display: inline-block;
-}
-
-.col_details {
-    padding: 1.5em;
 }
 
 
@@ -321,18 +341,18 @@ nav a img {
 
 .or {
     padding-bottom: 2em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #D9D9DC;
 }
 
 .check_list .icon {
-    color: green;
+    color: #0061FF;
 }
 
 
 /* TEAM TABLE */
 
 .team {
-    border: 1px solid gray;
+    border: 1px solid #D9D9DC;
     font-size: .8em;
 }
 
@@ -340,7 +360,7 @@ nav a img {
     display: inline-block;
     width: 100%;
     line-height: 2em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #D9D9DC;
     text-align: center;
 }
 
@@ -452,15 +472,14 @@ nav a img {
 
 .sq_col_center p span {
     padding-top: 2em;
-    border-top: 1px solid gray;
+    border-top: 1px solid #D9D9DC;
 }
 
 
 /* Members squares colors */
 
 .designit {
-    background-color: 
-    #A2D39B;
+    background-color: #A2D39B;
 }
 
 .asu {
@@ -508,16 +527,20 @@ nav a img {
     width: 30%;
 }
 
+.try_it h2 {
+color: #61082B;
+}
+
 
 /* FAQ */
 
 .faq h4 {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #D9D9DC;
 }
 
 .question {
     line-height: 5em;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #D9D9DC;
 }
 
 .question p {
@@ -538,7 +561,7 @@ nav a img {
 
 
 
-/* TEST */
+/* Container */
 
 .container {
     width: 70%;
@@ -578,7 +601,7 @@ nav a img {
 
 .footer_list a:hover {
     font-size: inherit;
-    color: #B4D0E7;
+    color: #D9D9DC;
 }
 
 
@@ -590,7 +613,6 @@ nav a img {
 
 .language_container {
     margin-left: 10vw;
-    background-color: pink;
     width: 9vw;
     border-top: 1px solid white;
 }
@@ -604,19 +626,4 @@ nav a img {
     border: 1px solid black;
 }
 
-input[type="radio"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 1px solid gray;
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    margin-right: .5em;
-    vertical-align: middle;
-    transition: .3s all linear;
-}
 
-input[type="radio"]:checked {
-    border: 5px solid blue;
-}
